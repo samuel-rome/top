@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* BARRA TRANPARENTE */
+#menu {
+    background-color: black;
+}
+
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+#menu form a{
+    color: white;
+}
+
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/* SLIDER - CARRUSEL */
+.carousel-inner{
+    max-height: 39rem;
+}
+
+/* PARA pantalla pequeña */
+
+@media (max-width:768px){
+    #intro {
+        width: 90% !important;
+    }
+    .servicio-fia{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+
+/* para pantallas super pequeñas */
+@media(max-width: 576px){
+        .icono-wrap{
+            flex-wrap: wrap;
+            justify-content: center !important;
+        }
+}
+
+.text-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.text-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+header .text-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.text-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+  }
+  
+  form{
+    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  
+  .login-form{
+    width: 380px;
+    height: 450px;
+    margin: 20px;
+    background: #ffffff !important;
+    border-radius: 10px !important ;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    background-color: #ffffff;
+    border: 2px solid #0db8de;
+    border-radius: 10px;
+    margin-bottom: 25px;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border: none;
+    background: #1a2226;
+    margin: 0;
+  }
+  
+  .ola btn{
+    background: #0db8de !important;
+    font-size: 14px;
+    transform: translateY(10px);
+    border-radius: 10px !important;
+  }
+  
+  .signup{
+    text-align: center;
+    padding-top: 25px;
+  
+  }
